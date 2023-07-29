@@ -22,9 +22,6 @@
       "@utils/*": [
         "./src/utils/*"
       ],
-      "@theme/*": [
-        "./src/theme/*"
-      ],
     }
   }
 }
