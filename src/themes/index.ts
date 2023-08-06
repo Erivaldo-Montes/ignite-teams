@@ -18,7 +18,7 @@ export default {
   },
   FONT_FAMILY: {
     REGULAR: 'Roboto_400Regular',
-    BOLD: 'Robot_700Bold',
+    BOLD: 'Roboto_700Bold',
   },
   FONT_SIZE: {
     SM: 14,
