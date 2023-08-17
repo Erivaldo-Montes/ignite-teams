@@ -11,7 +11,13 @@ export function NewGroup() {
 
   const [nameGroup, setNameGroup] = useState("");
 
-  function handleNew() {
+  async function handleNew() {
+    try {
+      if (nameGroup.trim().length === 0) {
+        return Alert.alert("Novo grupo", "Informe o nome da turma");
+      }
+
+      await createGroup(nameGroup);
     navigation.navigate("players", {
       group: nameGroup,
     });
