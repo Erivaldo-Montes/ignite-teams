@@ -21,9 +21,9 @@ export function NewGroup() {
       }
 
       await createGroup(nameGroup);
-    navigation.navigate("players", {
-      group: nameGroup,
-    });
+      navigation.navigate("players", {
+        group: nameGroup,
+      });
     } catch (error) {
       if (error instanceof AppError) {
         Alert.alert("Novo grupo", error.message);
