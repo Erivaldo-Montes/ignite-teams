@@ -3,7 +3,7 @@ import { ButtonIcon } from "@components/ButtonIcon";
 
 type Props = {
   name: string;
-  onRemove: () => void;
+  onRemove: (playerName: string) => Promise<void>;
 };
 
 export function PlayerCard({ name, onRemove }: Props) {
@@ -13,7 +13,11 @@ export function PlayerCard({ name, onRemove }: Props) {
 
       <Name>{name}</Name>
 
-      <ButtonIcon icon="close" type="SECONDARY" onPress={onRemove} />
+      <ButtonIcon
+        icon="close"
+        type="SECONDARY"
+        onPress={() => onRemove(name)}
+      />
     </Container>
   );
 }
