@@ -24,3 +24,13 @@ Esse app foi empregado as melhores e mais avançadas tecnologia do universo reac
 
 - [react navigation](https://reactnavigation.org/): permite a navegação dentro do app de maneira simples
   e segura
+
+## Executar o Projeto
+
+### pre-requisitos
+
+- Emulador android instalado na máquina
+- nodeJS
+
+Primeiro instale as dependências usando `npm install`
+Depois rode a aplicação no emulador android via expo `npx expo start`
