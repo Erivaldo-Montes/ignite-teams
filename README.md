@@ -24,7 +24,7 @@ Esse app foi empregado as melhores e mais avançadas tecnologia do universo reac
 - [styled-components](https://styled-components.com/): Ferramenta de estilização que permite
   escrever codigo css dentro de javascript.
 
-- (React Native)[https://reactnative.dev/]: Ferramenta de desenvolvimento de apps Nativos usando javascript
+- [React Native](https://reactnative.dev/): Ferramenta de desenvolvimento de apps Nativos usando javascript
 
 - [react navigation](https://reactnavigation.org/): permite a navegação dentro do app de maneira simples
   e segura
