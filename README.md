@@ -1,7 +1,3 @@
----
-markdown-preview-github-styles.lightTheme
----
-
 # Ignite Teams
 
 <p align="center">
